@@ -113,3 +113,28 @@ figcaption{
     border-color: white;
     align-self: center;
 }
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 50px auto 120px auto;
+    text-align: center;
+    gap: 50px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    border: solid #3882f6 5px;
+    border-radius: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    color: grey;
+}

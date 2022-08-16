@@ -39,9 +39,11 @@ a{
 .hero{
     display: flex;
     justify-content: space-between;
+
 }
-.image{
-    background-color: grey;
+img{
+    height: 250px;
+    width: auto;
 }
 .hero-left{
     color: #e5e7eb;
@@ -137,4 +139,7 @@ h2{
     align-items: center;
     width: 160px;
     color: grey;
+}
+.image{
+    align-self: center;
 }
